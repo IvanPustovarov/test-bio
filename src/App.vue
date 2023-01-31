@@ -7,8 +7,8 @@ import PersonalData from './components/PersonalData.vue';
 <template>
   <div class="container">
     <ProfilePhoto />
-    <PersonalData/>
-    <Password />
+    <!-- <PersonalData/>
+    <Password /> -->
   </div>
 </template>
 
