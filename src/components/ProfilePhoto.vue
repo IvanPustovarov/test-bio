@@ -63,7 +63,9 @@ function loadFile (event) {
 .container-photo{
     display: flex;
     flex-direction: column;
-    margin: 100px 0 0 100px;
+    margin: 20px;
+    min-width: 350px;
+    align-items: center;
 
     input[type=file] {
         display: none;
@@ -93,6 +95,7 @@ function loadFile (event) {
         justify-content: space-around;
         align-items: center;
         display: flex;
+        width: 100%;
 
         & .item{
             cursor: pointer;

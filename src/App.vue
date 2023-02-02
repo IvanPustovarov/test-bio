@@ -7,13 +7,14 @@ import PersonalData from './components/PersonalData.vue';
 <template>
   <div class="container">
     <ProfilePhoto />
-    <!-- <PersonalData/>
-    <Password /> -->
+    <PersonalData/>
+    <!-- <Password /> -->
   </div>
 </template>
 
 <style lang="scss" scoped>
   .container{
     display: flex;
+    padding: 100px 0 0 100px;
   }
 </style>
